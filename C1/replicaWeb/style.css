@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
 }
 
 .menu {
@@ -32,7 +33,7 @@ body {
 .header_logo {
     font-family: "Kanit";
     /*font-weight: 600;*/
-    font-size: 20px;
+    font-size: 10px;
       
        
 }
@@ -62,6 +63,22 @@ body {
     
 }
 
+scrollbar-width: thin;
+
+.header_nav_ul li a:visited {
+    color: #d4c814;
+}
+
+.header_nav_ul li a:hover {
+    border-bottom: 1px solir;
+    background-color: #01f121;
+    padding: 5px;
+}
+
+.header_nav_ul li a:active {
+    background-color: #cc0edd;
+}
+
 .header_nav-feeback {
     font-family: "Kanit";
     font-size: large;
@@ -69,11 +86,13 @@ body {
     color: #ffffff;
     border-radius: 30px;
     margin-right: 150px;
+    border-style: solid;
         
 }
 
 .header_nav-feeback i, a {
     padding: 2px;
+    
 }
 .header_nav-feeback a {
     font-family: "Kanit";
@@ -85,21 +104,165 @@ body {
    
 }
 
+.header_nav-feeback:hoover {
+    color: #cc0edd;
+    border: 15px;
+    border-style: solid;
+}
 
+/* inicia el cuerpo */
 .main_movil {
-    height: 800px;
+    height: auto;
     width: auto;
+    background-color: #f8f5f0;
+    display: flex;
+    flex-flow: column;
+}
+
+/* inicio section 1 */
+
+.section_inicio {
+    width: auto;
+    height: 600px;
+    margin-top: 80px;
+    display: flex; 
+    
+    margin-top: 120px;
+    margin-left: 80px;
+   
+}
+/* end start section */
+
+/* start h2 p inicio */
+.section_inicio_h2 {
+    width: 550px;
+    height: 180px;
+    margin-top: 0;
+    
+    font-family: "Newsreader";
+    font-size: 50px;
+
+}
+
+.inicio_parrafo {
+    font-family: "Mulish";
+    font-size: 20px;
+    color: #979390;
+    
+}
+ 
+/* end h2 parrafo  inicio */
+/*
+.inicio_celular_circle {
+    
+}
+*/
+
+.bi-circle {
+    background-color: #2937f0;
+    border-radius: 50%;
+    background-color: solid;
+    color: #2937f0
     
 }
 
+.bi-x {
+    font-size: 2.5em;
+    color: #2937f0;
+    color: solid;
+    line-height: 1.4;
+}
 
+.inicio_carcasa_imagen {
+    background-image: no-repeat;
+    width: 200px;
+    height: 400px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.inicio_celular_marco video {
+    margin-top: 65px;
+    width: 200px;
+    height: 389px;
+    border-radius: 10%;
+    z-index: -12;
+    
+    }
+
+/* start section notes */
+
+.section__notas {
+    width: auto;
+    height: 550px;
+    background-image: url("notes_tablet.jpeg");
+    background-image: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(50, 50, 50, 50);
+    background-size: cover;
+    
+}
+
+.section__notas_h3{
+    font-family: "Newsreader";
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 70px;
+    
+}
+
+.section__notas-btn {
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: #ffffff;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    font-family: "Mulish";
+    margin-left: 70px;
+    border-style: solid;
+}
+
+.section__notas-btn a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.section__notas-btn:visited {
+    color: #cc0edd;
+
+}
+
+.section__notas-btn:hover {
+    background-color: #2937f0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  footer */
 .foot {
     background-color: #0a0a0a;
     text-align: center;
     height: 120px;
     width: auto;
     color: #bdbcbc;
-    font-family: "Kanit";
+    /*font-family: "Kanit";*/
 }
 
 .foot p {
@@ -121,3 +284,5 @@ body {
     list-style: none;
 
 }
+
+/* end footer */
