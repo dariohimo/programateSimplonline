@@ -1,7 +1,8 @@
 # programateSimplonline
 programas_simplonline.co
 Preyecto landing page
-https://dariohimo.github.io/programateSimplonline/C1/replicaWeb/index.htm
+https://dariohimo.github.io/programateSimplonline/C1/replicaWeb/index.html
+https://dariohimo.github.io/programateSimplonline/C1/replicaWeb/index.html
 
 Replica Web
 
